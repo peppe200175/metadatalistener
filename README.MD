@@ -1,3 +1,5 @@
+Hive Metastore Listener in Java that sends message in ServiceBus Queue everytime a new spark or hive query (prestodb and others tools using the hive metastore) generates a modification to the the metadata of the metastore. 
+
 **Instruction to install**
 
 + Copy the JAR file to the nodes where  Hive metastore server is running
